@@ -16,8 +16,8 @@ public class BaseTest {
         driver.get("http://192.168.88.86/");
         driver.manage().window().maximize();
     }
-//    @AfterEach
-//    void driverQuit() {
-//        driver.quit();
-//    }
+    @AfterEach
+    void driverQuit() {
+        driver.quit();
+    }
 }
